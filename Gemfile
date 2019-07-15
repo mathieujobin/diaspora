@@ -87,7 +87,7 @@ gem "entypo-rails", "3.0.0"
 
 gem "handlebars_assets", "0.23.1"
 gem "jquery-rails",      "4.2.2"
-gem "jquery-ui-rails",   "5.0.5"
+gem "jquery-ui-rails", "6.0.0"
 gem "js-routes",         "1.3.3"
 gem "js_image_paths",    "0.1.0"
 
@@ -220,7 +220,7 @@ gem "thor", "0.19.1"
 group :production do # we don"t install these on travis to speed up test runs
   # Administration
 
-  gem "rails_admin", "0.8.1"
+  gem "rails_admin", "1.4.0"
 
   # Analytics
 
