@@ -74,7 +74,7 @@ gem "activerecord-import", "0.17.1"
 
 gem "fog-aws",     "1.2.1"
 gem "carrierwave", "0.11.2"
-gem "mini_magick", "4.6.1"
+gem "mini_magick", "4.9.4"
 
 # GUID generation
 gem "uuid", "2.3.8"
@@ -86,8 +86,8 @@ gem "entypo-rails", "3.0.0"
 # JavaScript
 
 gem "handlebars_assets", "0.23.1"
-gem "jquery-rails", "4.3.4"
-gem "jquery-ui-rails",   "5.0.5"
+gem "jquery-rails",      "4.3.4"
+gem "jquery-ui-rails",   "6.0.0"
 gem "js-routes",         "1.3.3"
 gem "js_image_paths",    "0.1.0"
 
@@ -220,7 +220,7 @@ gem "thor", "0.19.1"
 group :production do # we don"t install these on travis to speed up test runs
   # Administration
 
-  gem "rails_admin", "0.8.1"
+  gem "rails_admin", "1.4.0"
 
   # Analytics
 
